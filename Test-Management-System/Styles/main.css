@@ -53,7 +53,7 @@ nav a {
     margin-right: 20px;
 }
 
-.heading-2{
+.heading-2 {
     text-align: center;
 }
 
@@ -65,24 +65,12 @@ nav a {
 
 .card {
     margin: 30px;
-    border-radius: 8px;
+    border-radius: 50%;
 }
 
 .card-images {
     height: 300px;
     padding: 10px;
-}
-
-.HTML:hover {
-    background-color: rgba(241,101,36,255);
-}
-
-.CSS:hover {
-    background-color: rgba(36,101,241,255);
-}
-
-.Bootstrap:hover {
-    background-color: rgba(127,10,246,255);
 }
 
 footer {

@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instructions - Test Management System</title>
     <link rel="stylesheet" href="../Styles/instructions.css">
-    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="../Images/favicon.ico">
 </head>
 
 <body>
     <div class="header">
-        <img src="Images\ChitkaraUniversityLogo.png">
+        <img src="../Images/ChitkaraUniversityLogo.png">
         <h1 class="heading">TEST MANAGEMENT SYSTEM</h1>
     </div>
     <h1 class="quiz-instructions">Quiz Instructions</h1>
@@ -27,12 +27,14 @@
         </h3>
     </ul>
     <hr>
-    <input id="checkbox" type="checkbox" required/>
-    <label for="checkbox"> I have read the instructions carefully.</label>
-    <br>
-    <br>
-    <div class="Button">
-        <a href="quiz1.html" class="next-button">Next &raquo;</a>
-    </div>
+    <form action="quiz1.html">
+        <input id="checkbox" type="checkbox" required/>
+        <label for="checkbox"> I have read the instructions carefully.</label>
+        <br>
+        <br>
+            <div class="container">
+                <button type="submit">Next &raquo;</button>
+            </div>
+    </form>
 </body>
 </html>
