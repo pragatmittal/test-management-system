@@ -346,8 +346,8 @@ var quizApp = function () {
     }
     this.checkAnswer = function (option) {
         var answer = quiz.JS[this.currentque].answer;
-        option = option.replace(/</g, "&lt;") //for <
-        option = option.replace(/>/g, "&gt;") //for >
+        option = option.replace(/</g, "&lt;")
+        option = option.replace(/>/g, "&gt;")
         option = option.replace(/"/g, "&quot;")
         if (option == quiz.JS[this.currentque].answer) {
             if (quiz.JS[this.currentque].score == "") {
@@ -368,7 +368,6 @@ var selectedopt;
 $(document).ready(function () {
     jsq.displayQuiz(0);
     $('#question-options').on('change', 'input[type=radio][name=option]', function (e) {
-        //var radio = $(this).find('input:radio');
         $(this).prop("checked", true);
         selectedopt = $(this).val();
     });
