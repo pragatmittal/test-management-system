@@ -22,7 +22,8 @@ var quiz = {
                 {
                     "a": "The &lt;head&gt; section",
                     "b": "The &lt;body&gt; section",
-                    "c": "Both the &lt;head&gt; section and the &lt;body&gt; section are correct"
+                    "c": "Both the &lt;head&gt; section and the &lt;body&gt; section are correct",
+                    "d": "The &lt;header&gt; section"
                 }
             ],
             "answer": "Both the &lt;head&gt; section and the &lt;body&gt; section are correct",
@@ -31,12 +32,13 @@ var quiz = {
         },
         {
             "id": 3,
-            "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
+            "question": "What is the correct syntax for referring to an external script called 'script.js'?",
             "options": [
                 {
-                    "a": "&ltscript href=&quot;xxx.js&quot;>",
-                    "b": "&lt;script name=&quot;xxx.js&quot;&gt;",
-                    "c": "&lt;script src=&quot;xxx.js&quot;&gt;"
+                    "a": "&ltscript href=&quot;script.js&quot;>",
+                    "b": "&lt;script name=&quot;script.js&quot;&gt;",
+                    "c": "&lt;script src=&quot;script.js&quot;&gt;",
+                    "d": "&lt;script class=&quot;script.js&quot;&gt;"
                 }
             ],
             "answer": "&lt;script src=&quot;xxx.js&quot;&gt;",
@@ -49,7 +51,8 @@ var quiz = {
             "options": [
                 {
                     "a": "True",
-                    "b": "False"
+                    "b": "False",
+                    "c": "Cannot comment"
                 }
             ],
             "answer": "False",
@@ -79,6 +82,7 @@ var quiz = {
                     "a": "function myFunction()",
                     "b": "function:myFunction()",
                     "c": "function = myFunction()",
+                    "d": "function.myFunction()"
                 }
             ],
             "answer": "function myFunction()",
@@ -93,6 +97,7 @@ var quiz = {
                     "a": "call function myFunction()",
                     "b": "call myFunction()",
                     "c": "myFunction()",
+                    "d": "call.myFunction()"
                 }
             ],
             "answer": "myFunction()",
@@ -151,7 +156,8 @@ var quiz = {
                 {
                     "a": "while i = 1 to 10",
                     "b": "while (i &lt;= 10; i++)",
-                    "c": "while (i &lt;= 10)"
+                    "c": "while (i &lt;= 10)",
+                    "d": "while (i &lt;= 10, i++)"
                 }
             ],
             "answer": "while (i &lt;= 10)",
@@ -180,7 +186,8 @@ var quiz = {
                 {
                     "a": "//This is a comment",
                     "b": "&sbquo;This is a comment",
-                    "c": "&lt;!--This is a comment--&gt;"
+                    "c": "&lt;!--This is a comment--&gt;",
+                    "d": "&lt;!--This is a comment--&gt;"
                 }
             ],
             "answer": "//This is a comment",
@@ -194,7 +201,8 @@ var quiz = {
                 {
                     "a": "/*This comment has more than one line*/",
                     "b": "//This comment has more than one line//",
-                    "c": "&lt;!--This comment has more than one line--&gt;"
+                    "c": "&lt;!--This comment has more than one line--&gt;",
+                    "d": "&lt;!This comment has more than one line&gt;"
                 }
             ],
             "answer": "/*This comment has more than one line*/",
@@ -252,7 +260,9 @@ var quiz = {
             "options": [
                 {
                     "a": "w2 = window.new(&quot;http://www.w3schools.com&quot;);",
-                    "b": "w2 = window.open(&quot;http://www.w3schools.com&quot;);"
+                    "b": "w2 = window.open(&quot;http://www.w3schools.com&quot;);",
+                    "c": "w2 = window.openinnewwindow(&quot;http://www.w3schools.com&quot;);",
+                    "d": "w2 = window.newwindow(&quot;http://www.w3schools.com&quot;);"
                 }
             ],
             "answer": "w2 = window.open(&quot;http://www.w3schools.com&quot;);",
@@ -279,7 +289,8 @@ var quiz = {
                 {
                     "a": "navigator.appName",
                     "b": "browser.name",
-                    "c": "client.navName"
+                    "c": "client.navName",
+                    "d": "client.name"
                 }
             ],
             "answer": "navigator.appName",
