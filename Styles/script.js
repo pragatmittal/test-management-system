@@ -41,7 +41,7 @@ var quiz = {
                     "d": "&lt;script class=&quot;script.js&quot;&gt;"
                 }
             ],
-            "answer": "&lt;script src=&quot;xxx.js&quot;&gt;",
+            "answer": "&lt;script src=&quot;script.js&quot;&gt;",
             "score": 0,
             "status": ""
         },
@@ -261,8 +261,8 @@ var quiz = {
                 {
                     "a": "w2 = window.new(&quot;http://www.w3schools.com&quot;);",
                     "b": "w2 = window.open(&quot;http://www.w3schools.com&quot;);",
-                    "c": "w2 = window.openinnewwindow(&quot;http://www.w3schools.com&quot;);",
-                    "d": "w2 = window.newwindow(&quot;http://www.w3schools.com&quot;);"
+                    "c": "w2 = window.oinw(&quot;http://www.w3schools.com&quot;);",
+                    "d": "w2 = window.nw(&quot;http://www.w3schools.com&quot;);"
                 }
             ],
             "answer": "w2 = window.open(&quot;http://www.w3schools.com&quot;);",
